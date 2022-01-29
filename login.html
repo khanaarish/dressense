@@ -7,6 +7,8 @@
 
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
     <!-- ===== BOX ICONS ===== -->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -15,6 +17,91 @@
 </head>
 
 <body>
+
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="home.html" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#specs" class="nav__link">Men</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#case" class="nav__link">Women</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-3-line"></i>
+            </div>
+
+
+
+            <!-- mobile navbar -->
+
+            <div>
+                <div class="my_nav__menu" id="nav-menu">
+                    <ul class="my_nav__list">
+                        <li class="my_nav__item">
+                            <a href="index.html" class="my_nav__link my-active-link">
+                                <i class='bx bx-home-alt my_nav__icon'></i>
+                                <span class="my_nav__name">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="my_nav__item">
+                            <a href="store.html" class="my_nav__link">
+                                <i class='bx bx-store-alt my_nav__icon'></i>
+                                <span class="my_nav__name">Store</span>
+                            </a>
+                        </li>
+
+                        <li class="my_nav__item">
+                            <a href="#skills" class="my_nav__link">
+                                <i class='bx bx-heart my_nav__icon'></i>
+                                <span class="my_nav__name">Wishlist</span>
+                            </a>
+                        </li>
+
+                        <li class="my_nav__item">
+                            <a href="#portfolio" class="my_nav__link">
+                                <i class='bx bx-briefcase-alt my_nav__icon'></i>
+                                <span class="my_nav__name">Bag</span>
+                            </a>
+                        </li>
+
+                        <li class="my_nav__item">
+                            <a href="login.html" class="my_nav__link">
+                                <i class='bx bx-user my_nav__icon'></i>
+                                <span class="my_nav__name">Account</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </nav>
+    </header>
+
+
+
     <div class="login">
         <div class="login__content">
             <div class="login__img">
@@ -82,6 +169,8 @@
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/login.js"></script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
