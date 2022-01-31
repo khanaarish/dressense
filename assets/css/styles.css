@@ -906,3 +906,78 @@ img {
         margin-top: 9rem;
     }
 }
+
+.shopping-cart .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.shopping-cart .box .bx-x {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #666;
+    cursor: pointer;
+}
+
+.shopping-cart .box .bx-x:hover {
+    color: #bac34e;
+}
+
+.shopping-cart .box img {
+    height: 10rem;
+}
+
+.shopping-cart .box .content h3 {
+    font-size: 1.7rem;
+    padding-bottom: .5rem;
+    color: #222;
+}
+
+.shopping-cart .box .content span {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.shopping-cart .box .content span.multiply {
+    margin: 0 .5rem;
+}
+
+.shopping-cart .total {
+    color: #666;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.shopping-cart .total span {
+    color: #222;
+}
+
+.shopping-cart .btn {
+    text-align: center;
+    width: 100%;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: #bac34e;
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #222;
+}
