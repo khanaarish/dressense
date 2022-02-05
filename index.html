@@ -24,42 +24,51 @@
 <body>
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">
-                <img src="assets/img/logo.png" alt="">
-            </a>
+        <nav class="nav container-fluid">
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#specs" class="nav__link">Men</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#case" class="nav__link">Women</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#products" class="nav__link">Products</a>
-                    </li>
-                </ul>
+            <div class="1">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
 
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#specs" class="nav__link">Men</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#case" class="nav__link">Women</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-3-line"></i>
                 </div>
             </div>
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="ri-menu-3-line"></i>
-            </div>
-
+            <form action="" class="search__bar">
+                <input type="email" placeholder="Search" class="footer__input">
+                <!-- <button class="button button--flex">
+                        <i class="ri-send-plane-line button__icon"></i> Subscribe
+                    </button> -->
+            </form>
 
 
             <!-- mobile navbar -->
 
             <div>
-                <div class="my_nav__menu" id="nav-menu">
+                <div class="my_nav__menu">
                     <ul class="my_nav__list">
                         <li class="my_nav__item">
                             <a href="#home" class="my_nav__link my-active-link">
@@ -100,7 +109,10 @@
 
 
 
+
+
             </div>
+
         </nav>
     </header>
 
@@ -110,12 +122,7 @@
         <!--=============== HOME ===============-->
         <section class="home section" id="home">
             <div class="home__container container grid">
-                <form action="" class="footer__form">
-                    <input type="email" placeholder="Search" class="footer__input">
-                    <!-- <button class="button button--flex">
-                            <i class="ri-send-plane-line button__icon"></i> Subscribe
-                        </button> -->
-                </form>
+
                 <!-- <input type="email" placeholder="Email" class="footer__input"> -->
                 <div>
                     <!-- <img src="assets/img/home.png" alt="" class="home__img"> -->
